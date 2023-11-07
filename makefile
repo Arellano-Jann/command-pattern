@@ -4,3 +4,6 @@ all:
 
 clean:
 	find -name "*.class" | xargs rm
+
+docs:
+	doxygen Doxyfile
